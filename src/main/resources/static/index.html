@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Fleet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Loan Management</h1>
+        <div id="loan-form">
+            <!-- Form Fields -->
+        </div>
+        <div id="loan-list">
+            <!-- List of Loans -->
+        </div>
+    </div>
+    <form id="create-loan-form">
+    <input type="text" id="borrowerName" placeholder="Borrower Name" required>
+    <input type="number" id="amount" placeholder="Loan Amount" required>
+    <input type="text" id="status" placeholder="Status" required>
+    <button type="submit">Create Loan</button>
+</form>
+    <div id="loan-list"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
